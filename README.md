@@ -9,13 +9,13 @@ A simple Masks plugin for PocketMine-MP
 
 # Commands
 mask: 
-  usage: /mask (mask player) (list)
-  permission: mask.command
+ 1. usage: /mask (mask player) (list)
+ 2. permission: mask.command
   
 # Permissions
 mask.command:
-  default: op
-  desrciption: permission to give masks
+ - default: op
+ - desrciption: permission to give masks
   
 # Support
 contact CosmicNebula#2508 on Discord if you want help or have any suggestions for new masks
