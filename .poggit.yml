@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/cosmicnebula200/Masks
+build-by-default: true
+branches:
+- main
+projects:
+  Masks:
+    path: ""
+...
