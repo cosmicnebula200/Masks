@@ -1,0 +1,55 @@
+# Config for Masks Plugin
+
+
+#for internal use only **DO NOT CHANGE THIS OR IT WILL BREAK THE PLUGIN**
+config-version: 1
+
+# mask Meta
+# 0 for Skeleton head
+# 1 for Wither Skeleton head
+# 2 for Zombie head
+# 3 for Steve head
+# 4 for Creeper head
+# 5 for EnderDragon head
+
+rabbit: 0
+wither: 1
+husk: 2
+miner: 3
+grinder: 5
+
+# Settings for Husk Mask 
+# Gives hunger effect to the mob/player you hit while wearing this mask
+HuskMaskName: "&dHusk &cMask"
+HuskEffectDuration: 5
+HuskEffectAmplifier: 1
+HuskChance: 5
+
+# Settings for Wither Mask 
+# Gives wither effect to the mob/player you hit while wearing this mask
+WitherMaskName: "&dWither &cMask"
+WitherEffectDuration: 5
+WitherEffectAmplifier: 1
+WitherChance: 5
+
+# Settings for Rabbit Mask 
+# Gives jump boost when u jump while wearing this mask
+RabbitMaskName: "&dRabbit &cMask"
+RabbitEffectDuration: 5
+RabbitEffectAmplifier: 1
+RabbitChance: 5
+
+# Settings for Miner Mask 
+# Gives hast effect when you mine blocks while wearing this mask
+MinerMaskName: "&dMiner &cMask"
+MinerEffectDuration: 5
+MinerEffectAmplifier: 1
+MinerChance: 5
+
+# Settings for Grinder Mask 
+# Gives you random amount of money when you break/place/hit a mob/player
+GrinderMaskName: "&dGrinder &cMask"
+GrinderEffectDuration: 5
+MinMoney: 500
+MaxMoney: 10000
+MoneyAddMessage: "(&b&kkk&r&l&dMasks&b&kkk&r) -> &6You have been given {MONEY} From &l&bGrinder MASK"

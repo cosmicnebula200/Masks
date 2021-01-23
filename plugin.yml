@@ -1,0 +1,17 @@
+name: Masks
+main: cosmicnebula200\Masks\Masks
+version: 1.0.0
+api: 3.0.0
+depend:
+  - EconomyAPI
+
+commands:
+  mask:
+    usage: /mask <type> <player>
+    description: gives masks to a player
+    permission: elementals.masks
+
+permissions:
+  elementals.masks:
+    default: op
+    description: permission to give masks to others
