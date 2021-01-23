@@ -46,7 +46,7 @@ class Masks extends PluginBase implements Listener
 				}else{
 					switch ($args[0]){
 						case "husk":
-							$nbt->setInt("type" , "1");
+							$nbt->setInt("Type" , "1");
 							$name = $this->getConfig()->get("HuskMaskName");
 							$item->setCustomName(str_replace("&" , "§" , $name));
 							$meta = $this->getConfig()->get("husk");
