@@ -9,7 +9,7 @@ A simple Masks plugin for PocketMine-MP
 
 # Commands
 mask: 
-  usage: /mask (<mask> <player>) (list)
+  usage: /mask (mask player) (list)
   permission: mask.command
   
 # Permissions
@@ -21,8 +21,9 @@ mask.command:
 contact CosmicNebula#2508 on Discord if you want help or have any suggestions for new masks
 
 # Masks and uses
-Husk - Gives Hunger effect to the player you hit while wearing this mask 
-Wither - Gives Wither effect to the player you hit while wearing this mask
-Rabbit - Gives Jump Boost when u jump
-Miner - Gives Haste effect while you mine
-Grinder - Gives Money for Mob/Player hits or Block place or Block break
+- Husk - Gives Hunger effect to the player you hit while wearing this mask 
+- Wither - Gives Wither effect to the player you hit while wearing this mask
+- Rabbit - Gives Jump Boost when u jump
+- Miner - Gives Haste effect while you mine
+- Grinder - Gives Money for Mob/Player hits or Block place or Block break
+- wants some more? feel free to suggest something you want to be added to this
