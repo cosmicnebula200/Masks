@@ -88,9 +88,13 @@ class Masks extends PluginBase implements Listener
 							$sender->sendMessage("not valid type");
 							break;
 					}
-					if(isset($args[2])){
-						$player = $this->getServer()->getPlayer($args[1]);
-						$player->getInventory()->addItem($item);
+					if(isset($args[1])){
+						if($args[1] instanceof Player){
+							$player = $this->getServer()->getPlayer($args[1]);
+							$player->getInventory()->addItem($item);
+						}else{
+							$sender->sendMessage("Player Not found :C");
+						}
 					}else{
 						if($sender instanceof Player){
 							$sender->getInventory()->addItem($item);
