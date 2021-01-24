@@ -89,11 +89,13 @@ class Masks extends PluginBase implements Listener
 							break;
 					}
 					if(isset($args[1])){
-						if($args[1] instanceof Player){
-							$player = $this->getServer()->getPlayer($args[1]);
-							$player->getInventory()->addItem($item);
+						$player = $this->getServer()->getPlayer($args[1]);
+						if ($player == null)
+						{
+							$sender->sendMessage("Player Not Found !");
+							
 						}else{
-							$sender->sendMessage("Player Not found :C");
+							$player->getInventory()->addItem($item);
 						}
 					}else{
 						if($sender instanceof Player){
