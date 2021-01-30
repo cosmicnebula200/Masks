@@ -95,11 +95,15 @@ class Masks extends PluginBase implements Listener
 							$sender->sendMessage("Player Not Found !");
 							
 						}else{
-							$player->getInventory()->addItem($item);
+							if($item->getNamedTag()->hasTag("Type" , IntTag::class)){
+								$player->getInventory()->addItem($item);
+							}
 						}
 					}else{
 						if($sender instanceof Player){
-							$sender->getInventory()->addItem($item);
+							if($item->getNamedTag()->hasTag("Type" , IntTag::class)){
+								$sender->getInventory()->addItem($item);
+							}
 						}else{
 							$sender->sendMessage($command->getUsage());
 						}
