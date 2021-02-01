@@ -101,9 +101,7 @@ class Masks extends PluginBase implements Listener
 						}
 					}else{
 						if($sender instanceof Player){
-							if($item->getNamedTag()->hasTag("Type" , IntTag::class)){
-								$sender->getInventory()->addItem($item);
-							}
+							$sender->getInventory()->addItem($item);
 						}else{
 							$sender->sendMessage($command->getUsage());
 						}
