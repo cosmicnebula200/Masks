@@ -9,8 +9,8 @@ commands:
   mask:
     usage: /mask <type> <player>
     description: gives masks to a player
-    permission: mask.command
+    permission: masks.command
 permissions:
-  mask.command:
+  masks.command:
     default: op
     description: permission to give masks to others
